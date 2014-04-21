@@ -1,0 +1,24 @@
+{
+  "name": "pagerun-httpresponse",
+  "version": "0.9.1",
+  "description": "Record http response for pagerun.",
+  "main": "httpresponse",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaniswang/pagerun-httpresponse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaniswang/pagerun-httpresponse/issues"
+  },
+  "keywords": [
+    "pagerun",
+    "http",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Yanis Wang",
+  "license": "MIT"
+}
