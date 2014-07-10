@@ -6,11 +6,11 @@ module.exports = function(pagerun){
         var proxy = msg.proxy;
         proxy.addFilter(function(httpData, next){
             if(bOpenUrl === true && httpData.type === 'response'){
-                self.result({
+                self.info({
                     url: httpData.url,
                     type: httpData.responseType,
                     header: httpData.responseHeaders,
-                    data: httpData.responseData,
+                    data: httpData.responseData.toString('base64'),
                     time: httpData.responseTimes
                 });
             }

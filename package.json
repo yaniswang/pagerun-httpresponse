@@ -1,6 +1,6 @@
 {
   "name": "pagerun-httpresponse",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Record http response for pagerun.",
   "main": "httpresponse",
   "dependencies": {
